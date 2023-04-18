@@ -1,13 +1,15 @@
-#ifndef DOD_H
-#define DOD_H
+#ifndef DOG_H
+#define DOG_H
 
-/**
- * struct dog - a dog's basic info
- * @name: First member (name of the dog)
- * @age: Second member (age of the dog)
- * @owner: Third member (the owner of the dog)
- * Description: Longer description (any other info)
- */
+
+	/**
+	 * struct dog - a dog's basic info
+	 * @name: First member
+	 * @age: Second member
+	 * @owner: Third member
+	 *
+	 * Description: Longer description
+	 */
 	struct dog
 	{
 		char *name;
@@ -30,4 +32,4 @@
 	int _strlen(char *s);
 
 
-         #endif
+	#endif
