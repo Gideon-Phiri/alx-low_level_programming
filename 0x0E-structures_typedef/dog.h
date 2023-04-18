@@ -2,11 +2,11 @@
 #define DOD_H
 
 /**
-	 * struct dog - a dog's basic info
-         * @name: First member (name of the dog)
-	 * @age: Second member (age of the dog)
-	 * @owner: Third member (the owner of the dog)
-	 * Description: Longer description (any other info)
+ * struct dog - a dog's basic info
+ * @name: First member (name of the dog)
+ * @age: Second member (age of the dog)
+ * @owner: Third member (the owner of the dog)
+ * Description: Longer description (any other info)
  */
 	struct dog
 	{
@@ -29,4 +29,5 @@
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
 
-#endif
+
+         #endif
